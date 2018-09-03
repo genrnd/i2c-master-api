@@ -8,11 +8,11 @@ software package.
 Basically, API was created for control of i2c expander (TCA9534), which is used
 in Intel Cyclone 10GX FPGA Kit for controlling of SFP+ signals. FPGA can't
 transmit something to optics via SFP+ until TX_DISABLE signal become 0 (it
-default to 1).
+defaults to 1).
 
-We found that Intel provides Intel Avalon-MM I2C Master Core in Platform
-Designer (also the tool from Quartus package), but does not provide any API for
-it.
+We found that Intel provides Intel Avalon-MM I2C Master Core as ready-to-use
+Platform Designer (also the tool from Quartus package) module, but does not
+provide any API for it.
 
 Features:
 
